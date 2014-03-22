@@ -1,5 +1,5 @@
 # Street Fighting v.0.2b
-
+ 
 # greeting, rules and some info about the game
 print('Hello! Welcome to the game called \'Street Fighting\' v.0.2a')
 print('It is about to help you to decide who will go for the beer: you or your partner')
