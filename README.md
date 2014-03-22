@@ -1,4 +1,3 @@
-turnt-octo-sansa
 also try the exe file stored at http://goo.gl/F72Efr
 ================
 
