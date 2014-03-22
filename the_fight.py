@@ -1,10 +1,10 @@
 # made by Alexander Vasilkov, IKT-13
 # inspired by the "Fight Club" movie
 # Adults only. No one under 17 admitted
-# Street Fighting v.0.2b
+# Street Fighting v.1.0-RC1
 
 # greeting, rules and some info about the game
-print('Hello! Welcome to the game called \'Street Fighting\' v.0.2b')
+print('Hello! Welcome to the game called \'Street Fighting\' v.1.0-RC1')
 print('It is about to help you to decide who will go for the beer: you or your partner')
 print('\nHere are some rules:\n* Only two fighters\n* Do not hit below the belt\n* Do not bite each other\n* No shirts, no shoes\n* Fight will go on as long as it have to\n* If you lose, you have to go for a beer')
 
@@ -99,7 +99,7 @@ def artificial_intelligence(myself, enemy):
 	# maybe it's time for some Red Bull? To make the hit stronger.
 	if player_health[enemy] > 0 and randint(0, 4) == 2:
 		hit *= 1.5
-		print player_names[myself] + ' just drunk Red Bull and his hit damage for now is myltiplied by 1.5!'
+		print player_names[myself] + ' just drunk Red Bull and his hit damage for now is multiplied by 1.5!'
 	# the hit
 	player_health[enemy] -= hit
 	print player_names[myself] + ' caused ' + str(hit) + ' damage to ' + player_names[enemy]
