@@ -1,0 +1,6 @@
+***
+22.03.2014
+v.1.0-RC1
+- fixed minor mixprint caused to print 'myltiplied' instead of 'multiplied' when guys drink Red Bull
+- our program is now RC
+***
