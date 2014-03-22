@@ -1,4 +1,4 @@
 turnt-octo-sansa
 ================
 
-python game
+a simple python game
